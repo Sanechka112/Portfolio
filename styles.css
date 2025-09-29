@@ -1,0 +1,121 @@
+body {
+    background-color: #1e2423;
+    color: #9c9797;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    scroll-behavior:smooth;
+    text-shadow: 0 0 10Px #712a2a;  
+    font-size: 1.35em;    
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+ul {
+  margin: 65Px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 100%;
+  max-width: 1000Px;
+  text-align: center;
+}
+
+li {
+  display: table-cell; 
+  position: relative; 
+  padding: 10Px 0;
+}
+
+a.navigation {
+  position: relative;
+  color: #9c9797;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 10Px 10Px;
+}
+a.navigation:after {    
+  background: transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2Px;
+  left: 50%;
+  position: absolute;
+  background: #9c9797;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+a.navigation:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.content-wrapper {
+  margin-bottom: 260Px;
+  display: flex;
+  padding: 20px;
+}
+
+h1 {
+  position: relative;
+  font-size: 140Px;
+  margin: 230Px auto 50Px 120Px;
+}
+
+p.About-me {
+  position: relative;
+  margin: 175Px 50Px 50Px 40PX;
+  text-align: center;
+  width: 800Px;
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
+
+img {
+  position: relative;
+  float: left;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin: 200PX 40Px 50Px 0Px;
+  object-fit: contain;
+}
+
+.myAchievements, .myProjects, .questions, .contacts {
+  font-size: 70Px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  margin: auto;
+}
+
+#c-w-5 {
+  margin-bottom: 35Px;
+}
+
+.ref {
+  text-decoration: none;
+}
