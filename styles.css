@@ -74,6 +74,7 @@ p.About-me {
   width: 800Px;
   line-height: 1.3em;
   font-size: 1.2em;
+  padding-top: 65Px;
 }
 
 img {
@@ -101,12 +102,32 @@ img {
 
 
 
+#c-w-4 {
+    flex-direction: column;
+}
 
+.questions {
+  margin-bottom: 20Px;
+}
 
+.q {
+  text-align: center;
+  margin-top : 30Px;
+  text-shadow: 0 0 9Px #bfb5b5; 
+}
 
+#ans-1, #ans-3, #ans-5 {
+  text-align: left;
+  font-size: 1.2em;
+  width: 1350Px;
+}
 
-
-
+#ans-2, #ans-4 {
+  text-align: right;
+  font-size: 1.2em;
+  width: 1350Px;
+  margin-left: auto;
+}
 
 .contact {
   margin: auto;
