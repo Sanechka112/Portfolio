@@ -14,7 +14,7 @@ body {
   width: 0;
 }
 
-ul {
+#nav-1 {
   margin: 65Px auto 0; 
   padding: 0; 
   list-style: none; 
@@ -24,7 +24,7 @@ ul {
   text-align: center;
 }
 
-li {
+.navi {
   display: table-cell; 
   position: relative; 
   padding: 10Px 0;
@@ -116,7 +116,7 @@ img {
   text-shadow: 0 0 9Px #bfb5b5; 
 }
 
-#ans-1, #ans-3, #ans-5 {
+#ans-1, #ans-3 {
   text-align: left;
   font-size: 1.2em;
   width: 1350Px;
