@@ -1,13 +1,12 @@
 body {
-    background-color: #1e2423;
-    color: #9c9797;
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    scroll-behavior:smooth;
-    text-shadow: 0 0 10Px #712a2a;  
-    font-size: 1.35em;    
+  background-color: #1e2423;
+  color: #9c9797;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  scroll-behavior: smooth;
+  text-shadow: 0 0 10Px #712a2a;
+  font-size: 1.35em;
 }
 
 ::-webkit-scrollbar {
@@ -15,9 +14,9 @@ body {
 }
 
 #nav-1 {
-  margin: 65Px auto 0; 
-  padding: 0; 
-  list-style: none; 
+  margin: 65Px auto 0;
+  padding: 0;
+  list-style: none;
   display: table;
   width: 100%;
   max-width: 1000Px;
@@ -25,8 +24,8 @@ body {
 }
 
 .navi {
-  display: table-cell; 
-  position: relative; 
+  display: table-cell;
+  position: relative;
   padding: 10Px 0;
 }
 
@@ -38,7 +37,8 @@ a.navigation {
   display: inline-block;
   padding: 10Px 10Px;
 }
-a.navigation:after {    
+
+a.navigation:after {
   background: transparent;
   bottom: 0;
   content: "";
@@ -50,9 +50,10 @@ a.navigation:after {
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
   width: 0;
 }
-a.navigation:hover:after { 
-  width: 100%; 
-  left: 0; 
+
+a.navigation:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .content-wrapper {
@@ -83,7 +84,7 @@ img {
   width: 100%;
   max-width: 550px;
   height: auto;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin: 200PX 40Px 50Px 0Px;
   object-fit: contain;
@@ -94,6 +95,23 @@ img {
   text-align: center;
 }
 
+.skills {
+  list-style-type: none;
+}
+
+.h-skills, .s-skills, .ach {
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+.h-skills h2, .s-skills h2, .ach h2 {
+  font-size: 50Px;
+}
+
+
+
 
 
 
@@ -103,7 +121,7 @@ img {
 
 
 #c-w-4 {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .questions {
@@ -112,8 +130,8 @@ img {
 
 .q {
   text-align: center;
-  margin-top : 30Px;
-  text-shadow: 0 0 9Px #bfb5b5; 
+  margin-top: 30Px;
+  text-shadow: 0 0 9Px #bfb5b5;
 }
 
 #ans-1, #ans-3 {
