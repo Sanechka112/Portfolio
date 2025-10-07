@@ -110,19 +110,25 @@ img {
   font-size: 50Px;
 }
 
-.download-link {
+.download-link, .ref {
+  text-decoration: none;
+  color: #605050;
+}
+
+.download-link:hover, .ref:hover {
+  text-decoration: underline;
+  cursor: pointer;
 
 }
 
+.download-link:visited, .ref:visited {
+  text-decoration: none;
+  color : #587e96;
+}
 
-
-
-
-
-
-
-
-
+.proj {
+  font-size: 47Px;
+}
 
 #c-w-4 {
   flex-direction: column;
@@ -135,7 +141,7 @@ img {
 .q {
   text-align: center;
   margin-top: 30Px;
-  text-shadow: 0 0 9Px #bfb5b5;
+  text-shadow: 0 0 9Px #343232;
 }
 
 #ans-1, #ans-3 {
@@ -159,6 +165,3 @@ img {
   margin-bottom: 35Px;
 }
 
-.ref {
-  text-decoration: none;
-}
